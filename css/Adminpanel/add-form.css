@@ -1,0 +1,119 @@
+body {
+    font-family: "Century Gothic", sans-serif;
+    background-color: white;
+    color: #333;
+    /* filter: invert(1); */
+}
+
+.btn-success{
+    background-color: #027cff;
+    border: none;
+}
+
+.btn-danger{
+    background-color: #000000;
+    border: none;
+}
+
+.containers{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.new-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+     flex-direction: column;
+     margin-top: 30px;
+    margin-bottom: 30px;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    filter: invert(1);
+}
+
+.new-div > button {
+    color: #000000;
+    background-color: #ffffff;
+    text-align: center;
+    filter: invert(1);
+    font-size: 22px;
+    font-weight: 700;
+    border-radius: 10px;
+    padding: 15px;
+    font-family: "Century Gothic", sans-serif;
+    border: none;
+}
+img, svg {
+    vertical-align: middle;
+    filter: invert(1);
+}
+
+.form-container {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 600px;
+}
+
+.form-header {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.form-header h2 {
+    font-size: 32px;
+    font-weight: 900;
+    color: #1a73e8;
+    letter-spacing: 1px;
+}
+
+.form-group > label {
+    display: inline-block;
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #555;
+}
+
+.form-group > input, 
+.form-group > textarea {
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 100%;
+    transition: border-color 0.3s;
+}
+
+.form-group > input:focus, 
+.form-group > textarea:focus {
+    border-color: #1a73e8;
+    box-shadow: 0 0 5px rgba(26, 115, 232, 0.3);
+    outline: none;
+}
+
+.btn-primary {
+    background-color: #027cff;
+    border: none;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 30px;
+    text-transform: uppercase;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #004fc4;
+    transform: translateY(-2px);
+}
+
+.btn-block {
+    width: 100%;
+}

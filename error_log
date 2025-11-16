@@ -1,0 +1,208 @@
+[03-Oct-2025 09:24:51 UTC] PHP Warning:  require(/home/thehelpe/rangilalace.com/vendor/composer/../symfony/polyfill-intl-normalizer/bootstrap.php): Failed to open stream: No such file or directory in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:24:52 UTC] PHP Warning:  require(/home/thehelpe/rangilalace.com/vendor/composer/../symfony/string/Resources/functions.php): Failed to open stream: No such file or directory in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:24:52 UTC] PHP Warning:  require(/home/thehelpe/rangilalace.com/vendor/composer/../symfony/string/Resources/functions.php): Failed to open stream: No such file or directory in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:24:52 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/thehelpe/rangilalace.com/vendor/composer/../symfony/string/Resources/functions.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php(45): {closure}()
+#1 /home/thehelpe/rangilalace.com/vendor/autoload.php(25): ComposerAutoloaderInitbfe12996eeecb6fdc8713a9fd9d431f8::getLoader()
+#2 /home/thehelpe/rangilalace.com/index.php(34): require('/home/thehelpe/...')
+#3 {main}
+  thrown in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:24:56 UTC] PHP Warning:  require(/home/thehelpe/rangilalace.com/vendor/composer/../symfony/polyfill-php72/bootstrap.php): Failed to open stream: No such file or directory in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:24:56 UTC] PHP Warning:  require(/home/thehelpe/rangilalace.com/vendor/composer/../symfony/polyfill-php72/bootstrap.php): Failed to open stream: No such file or directory in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:24:56 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/thehelpe/rangilalace.com/vendor/composer/../symfony/polyfill-php72/bootstrap.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php(45): {closure}()
+#1 /home/thehelpe/rangilalace.com/vendor/autoload.php(25): ComposerAutoloaderInitbfe12996eeecb6fdc8713a9fd9d431f8::getLoader()
+#2 /home/thehelpe/rangilalace.com/index.php(34): require('/home/thehelpe/...')
+#3 {main}
+  thrown in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:24:58 UTC] PHP Warning:  require(/home/thehelpe/rangilalace.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php): Failed to open stream: No such file or directory in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:24:58 UTC] PHP Warning:  require(/home/thehelpe/rangilalace.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php): Failed to open stream: No such file or directory in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:24:58 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/thehelpe/rangilalace.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php(45): {closure}()
+#1 /home/thehelpe/rangilalace.com/vendor/autoload.php(25): ComposerAutoloaderInitbfe12996eeecb6fdc8713a9fd9d431f8::getLoader()
+#2 /home/thehelpe/rangilalace.com/index.php(34): require('/home/thehelpe/...')
+#3 {main}
+  thrown in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:24:58 UTC] PHP Warning:  require(/home/thehelpe/rangilalace.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php): Failed to open stream: No such file or directory in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:24:58 UTC] PHP Warning:  require(/home/thehelpe/rangilalace.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php): Failed to open stream: No such file or directory in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:24:58 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/thehelpe/rangilalace.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php(45): {closure}()
+#1 /home/thehelpe/rangilalace.com/vendor/autoload.php(25): ComposerAutoloaderInitbfe12996eeecb6fdc8713a9fd9d431f8::getLoader()
+#2 /home/thehelpe/rangilalace.com/index.php(34): require('/home/thehelpe/...')
+#3 {main}
+  thrown in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:24:58 UTC] PHP Warning:  require(/home/thehelpe/rangilalace.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php): Failed to open stream: No such file or directory in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:24:58 UTC] PHP Warning:  require(/home/thehelpe/rangilalace.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php): Failed to open stream: No such file or directory in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:24:58 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/thehelpe/rangilalace.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php(45): {closure}()
+#1 /home/thehelpe/rangilalace.com/vendor/autoload.php(25): ComposerAutoloaderInitbfe12996eeecb6fdc8713a9fd9d431f8::getLoader()
+#2 /home/thehelpe/rangilalace.com/index.php(34): require('/home/thehelpe/...')
+#3 {main}
+  thrown in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:24:58 UTC] PHP Warning:  require(/home/thehelpe/rangilalace.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php): Failed to open stream: No such file or directory in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:24:58 UTC] PHP Warning:  require(/home/thehelpe/rangilalace.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php): Failed to open stream: No such file or directory in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:24:58 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/thehelpe/rangilalace.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php(45): {closure}()
+#1 /home/thehelpe/rangilalace.com/vendor/autoload.php(25): ComposerAutoloaderInitbfe12996eeecb6fdc8713a9fd9d431f8::getLoader()
+#2 /home/thehelpe/rangilalace.com/index.php(34): require('/home/thehelpe/...')
+#3 {main}
+  thrown in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:24:58 UTC] PHP Warning:  require(/home/thehelpe/rangilalace.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php): Failed to open stream: No such file or directory in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:24:58 UTC] PHP Warning:  require(/home/thehelpe/rangilalace.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php): Failed to open stream: No such file or directory in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:24:58 UTC] PHP Warning:  require(/home/thehelpe/rangilalace.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php): Failed to open stream: No such file or directory in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:24:58 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/thehelpe/rangilalace.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php(45): {closure}()
+#1 /home/thehelpe/rangilalace.com/vendor/autoload.php(25): ComposerAutoloaderInitbfe12996eeecb6fdc8713a9fd9d431f8::getLoader()
+#2 /home/thehelpe/rangilalace.com/index.php(34): require('/home/thehelpe/...')
+#3 {main}
+  thrown in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:24:59 UTC] PHP Warning:  require(/home/thehelpe/rangilalace.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php): Failed to open stream: No such file or directory in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:24:59 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/thehelpe/rangilalace.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php(45): {closure}()
+#1 /home/thehelpe/rangilalace.com/vendor/autoload.php(25): ComposerAutoloaderInitbfe12996eeecb6fdc8713a9fd9d431f8::getLoader()
+#2 /home/thehelpe/rangilalace.com/index.php(34): require('/home/thehelpe/...')
+#3 {main}
+  thrown in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:24:59 UTC] PHP Warning:  require(/home/thehelpe/rangilalace.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php): Failed to open stream: No such file or directory in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:24:59 UTC] PHP Warning:  require(/home/thehelpe/rangilalace.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php): Failed to open stream: No such file or directory in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:24:59 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/thehelpe/rangilalace.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php(45): {closure}()
+#1 /home/thehelpe/rangilalace.com/vendor/autoload.php(25): ComposerAutoloaderInitbfe12996eeecb6fdc8713a9fd9d431f8::getLoader()
+#2 /home/thehelpe/rangilalace.com/index.php(34): require('/home/thehelpe/...')
+#3 {main}
+  thrown in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:24:59 UTC] PHP Warning:  require(/home/thehelpe/rangilalace.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php): Failed to open stream: No such file or directory in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:24:59 UTC] PHP Warning:  require(/home/thehelpe/rangilalace.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php): Failed to open stream: No such file or directory in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:24:59 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/thehelpe/rangilalace.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php(45): {closure}()
+#1 /home/thehelpe/rangilalace.com/vendor/autoload.php(25): ComposerAutoloaderInitbfe12996eeecb6fdc8713a9fd9d431f8::getLoader()
+#2 /home/thehelpe/rangilalace.com/index.php(34): require('/home/thehelpe/...')
+#3 {main}
+  thrown in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:24:59 UTC] PHP Warning:  require(/home/thehelpe/rangilalace.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php): Failed to open stream: No such file or directory in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:24:59 UTC] PHP Warning:  require(/home/thehelpe/rangilalace.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php): Failed to open stream: No such file or directory in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:24:59 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/thehelpe/rangilalace.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php(45): {closure}()
+#1 /home/thehelpe/rangilalace.com/vendor/autoload.php(25): ComposerAutoloaderInitbfe12996eeecb6fdc8713a9fd9d431f8::getLoader()
+#2 /home/thehelpe/rangilalace.com/index.php(34): require('/home/thehelpe/...')
+#3 {main}
+  thrown in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:24:59 UTC] PHP Warning:  require(/home/thehelpe/rangilalace.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php): Failed to open stream: No such file or directory in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:24:59 UTC] PHP Warning:  require(/home/thehelpe/rangilalace.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php): Failed to open stream: No such file or directory in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:24:59 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/thehelpe/rangilalace.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php(45): {closure}()
+#1 /home/thehelpe/rangilalace.com/vendor/autoload.php(25): ComposerAutoloaderInitbfe12996eeecb6fdc8713a9fd9d431f8::getLoader()
+#2 /home/thehelpe/rangilalace.com/index.php(34): require('/home/thehelpe/...')
+#3 {main}
+  thrown in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:24:59 UTC] PHP Warning:  require(/home/thehelpe/rangilalace.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php): Failed to open stream: No such file or directory in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:24:59 UTC] PHP Warning:  require(/home/thehelpe/rangilalace.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php): Failed to open stream: No such file or directory in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:24:59 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/thehelpe/rangilalace.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php(45): {closure}()
+#1 /home/thehelpe/rangilalace.com/vendor/autoload.php(25): ComposerAutoloaderInitbfe12996eeecb6fdc8713a9fd9d431f8::getLoader()
+#2 /home/thehelpe/rangilalace.com/index.php(34): require('/home/thehelpe/...')
+#3 {main}
+  thrown in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:24:59 UTC] PHP Warning:  require(/home/thehelpe/rangilalace.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php): Failed to open stream: No such file or directory in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:24:59 UTC] PHP Warning:  require(/home/thehelpe/rangilalace.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php): Failed to open stream: No such file or directory in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:24:59 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/thehelpe/rangilalace.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php(45): {closure}()
+#1 /home/thehelpe/rangilalace.com/vendor/autoload.php(25): ComposerAutoloaderInitbfe12996eeecb6fdc8713a9fd9d431f8::getLoader()
+#2 /home/thehelpe/rangilalace.com/index.php(34): require('/home/thehelpe/...')
+#3 {main}
+  thrown in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:25:00 UTC] PHP Warning:  require(/home/thehelpe/rangilalace.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php): Failed to open stream: No such file or directory in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:25:00 UTC] PHP Warning:  require(/home/thehelpe/rangilalace.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php): Failed to open stream: No such file or directory in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:25:00 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/thehelpe/rangilalace.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php(45): {closure}()
+#1 /home/thehelpe/rangilalace.com/vendor/autoload.php(25): ComposerAutoloaderInitbfe12996eeecb6fdc8713a9fd9d431f8::getLoader()
+#2 /home/thehelpe/rangilalace.com/index.php(34): require('/home/thehelpe/...')
+#3 {main}
+  thrown in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:25:00 UTC] PHP Warning:  require(/home/thehelpe/rangilalace.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php): Failed to open stream: No such file or directory in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:25:00 UTC] PHP Warning:  require(/home/thehelpe/rangilalace.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php): Failed to open stream: No such file or directory in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:25:00 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/thehelpe/rangilalace.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php(45): {closure}()
+#1 /home/thehelpe/rangilalace.com/vendor/autoload.php(25): ComposerAutoloaderInitbfe12996eeecb6fdc8713a9fd9d431f8::getLoader()
+#2 /home/thehelpe/rangilalace.com/index.php(34): require('/home/thehelpe/...')
+#3 {main}
+  thrown in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:25:00 UTC] PHP Warning:  require(/home/thehelpe/rangilalace.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php): Failed to open stream: No such file or directory in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:25:00 UTC] PHP Warning:  require(/home/thehelpe/rangilalace.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php): Failed to open stream: No such file or directory in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:25:00 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/thehelpe/rangilalace.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php(45): {closure}()
+#1 /home/thehelpe/rangilalace.com/vendor/autoload.php(25): ComposerAutoloaderInitbfe12996eeecb6fdc8713a9fd9d431f8::getLoader()
+#2 /home/thehelpe/rangilalace.com/index.php(34): require('/home/thehelpe/...')
+#3 {main}
+  thrown in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:25:00 UTC] PHP Warning:  require(/home/thehelpe/rangilalace.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php): Failed to open stream: No such file or directory in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:25:00 UTC] PHP Warning:  require(/home/thehelpe/rangilalace.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php): Failed to open stream: No such file or directory in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:25:00 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/thehelpe/rangilalace.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php(45): {closure}()
+#1 /home/thehelpe/rangilalace.com/vendor/autoload.php(25): ComposerAutoloaderInitbfe12996eeecb6fdc8713a9fd9d431f8::getLoader()
+#2 /home/thehelpe/rangilalace.com/index.php(34): require('/home/thehelpe/...')
+#3 {main}
+  thrown in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:25:00 UTC] PHP Warning:  require(/home/thehelpe/rangilalace.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php): Failed to open stream: No such file or directory in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:25:00 UTC] PHP Warning:  require(/home/thehelpe/rangilalace.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php): Failed to open stream: No such file or directory in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:25:00 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/thehelpe/rangilalace.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php(45): {closure}()
+#1 /home/thehelpe/rangilalace.com/vendor/autoload.php(25): ComposerAutoloaderInitbfe12996eeecb6fdc8713a9fd9d431f8::getLoader()
+#2 /home/thehelpe/rangilalace.com/index.php(34): require('/home/thehelpe/...')
+#3 {main}
+  thrown in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:25:01 UTC] PHP Warning:  require(/home/thehelpe/rangilalace.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php): Failed to open stream: No such file or directory in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:25:01 UTC] PHP Warning:  require(/home/thehelpe/rangilalace.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php): Failed to open stream: No such file or directory in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:25:01 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/thehelpe/rangilalace.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php(45): {closure}()
+#1 /home/thehelpe/rangilalace.com/vendor/autoload.php(25): ComposerAutoloaderInitbfe12996eeecb6fdc8713a9fd9d431f8::getLoader()
+#2 /home/thehelpe/rangilalace.com/index.php(34): require('/home/thehelpe/...')
+#3 {main}
+  thrown in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:25:01 UTC] PHP Warning:  require(/home/thehelpe/rangilalace.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php): Failed to open stream: No such file or directory in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:25:01 UTC] PHP Warning:  require(/home/thehelpe/rangilalace.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php): Failed to open stream: No such file or directory in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:25:01 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/thehelpe/rangilalace.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php(45): {closure}()
+#1 /home/thehelpe/rangilalace.com/vendor/autoload.php(25): ComposerAutoloaderInitbfe12996eeecb6fdc8713a9fd9d431f8::getLoader()
+#2 /home/thehelpe/rangilalace.com/index.php(34): require('/home/thehelpe/...')
+#3 {main}
+  thrown in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:25:01 UTC] PHP Warning:  require(/home/thehelpe/rangilalace.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php): Failed to open stream: No such file or directory in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:25:01 UTC] PHP Warning:  require(/home/thehelpe/rangilalace.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php): Failed to open stream: No such file or directory in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:25:01 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/thehelpe/rangilalace.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php(45): {closure}()
+#1 /home/thehelpe/rangilalace.com/vendor/autoload.php(25): ComposerAutoloaderInitbfe12996eeecb6fdc8713a9fd9d431f8::getLoader()
+#2 /home/thehelpe/rangilalace.com/index.php(34): require('/home/thehelpe/...')
+#3 {main}
+  thrown in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:25:01 UTC] PHP Warning:  require(/home/thehelpe/rangilalace.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php): Failed to open stream: No such file or directory in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:25:01 UTC] PHP Warning:  require(/home/thehelpe/rangilalace.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php): Failed to open stream: No such file or directory in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41
+[03-Oct-2025 09:25:01 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/thehelpe/rangilalace.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php(45): {closure}()
+#1 /home/thehelpe/rangilalace.com/vendor/autoload.php(25): ComposerAutoloaderInitbfe12996eeecb6fdc8713a9fd9d431f8::getLoader()
+#2 /home/thehelpe/rangilalace.com/index.php(34): require('/home/thehelpe/...')
+#3 {main}
+  thrown in /home/thehelpe/rangilalace.com/vendor/composer/autoload_real.php on line 41

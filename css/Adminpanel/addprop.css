@@ -1,0 +1,200 @@
+/* General Body Style */
+body {
+    font-family: "Century Gothic", sans-serif;
+    background-color: white;
+    color: #333;
+    /* filter: invert(1); */
+}
+
+
+.new-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+     flex-direction: column;
+     margin-top: 30px;
+    margin-bottom: 30px;
+}
+table th {
+    background-color: #f4f4f4;
+    cursor: pointer;
+    color: #027cff;
+}
+tr{
+    background: #ffffff;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    filter: invert(1);
+}
+
+.new-div > button {
+    color: #000000;
+    background-color: #ffffff;
+
+     text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    filter: invert(1);
+    border-radius: 10px;
+    padding:15px ;
+    font-family: "Century Gothic", sans-serif;
+    border: none;
+}
+
+img, svg {
+    vertical-align: middle;
+    filter: invert(1);
+}
+
+
+/* Sidebar Styles */
+.w3-sidebar {
+    width: 300px;
+    background-color: #f44336; /* Red */
+}
+
+.w3-bar-item {
+    color: #fff;
+    text-decoration: none;
+}
+
+.w3-bar-item:hover {
+    background-color: #e53935;
+}
+
+/* Top Header for Small Screens */
+.mobile-header {
+    background-color: #f44336; /* Red */
+    color: #fff;
+}
+
+/* Main Content Styles */
+.w3-main {
+    margin-left: 300px; /* Adjust according to the sidebar width */
+    padding: 20px;
+}
+
+/* Form Title Styles */
+.title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Form Styles */
+form {
+    margin: 20px 0;
+    background: #fff;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.con-main{
+    padding: 20px;
+}
+.user-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Input Box Styles */
+.input-box {
+    flex: 1;
+    min-width: calc(50% - 20px); /* Adjust for responsive layout */
+    margin-bottom: 20px;
+}
+.input-box input {
+    text-transform: capitalize;
+}
+.details {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"],
+input[type="number"],
+select,
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+select {
+    padding: 8px;
+}
+
+.button {
+    width: 100%;
+}
+
+/* Submit Button Styles */
+input[type="submit"] {
+    background-color: #027cff;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #000000;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .w3-main {
+        margin-left: 0;
+    }
+
+    .user-details {
+        flex-direction: column;
+    }
+
+    .input-box {
+        width: 100%;
+    }
+}
+.w3-top {
+    background-color: #d1d1d1;
+    color: #fff;
+}
+.w3-hover-white{
+    display: flex;
+    align-items: center;
+}
+.w3-red{
+    background-color: #d1d1d1;
+}
+.title{
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.current-images {
+    margin-top: 25px;
+    display: flex;
+    gap: 11px;
+}
+
+
+.current-images > img{
+  min-width: 100px;
+  min-height: 100px;
+  filter: invert(1);
+}

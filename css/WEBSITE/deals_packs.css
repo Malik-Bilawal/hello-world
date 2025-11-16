@@ -1,0 +1,763 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.more-deals-packs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header Section */
+.header {
+    gap: 50px;
+    justify-content: center;
+    display: flex;
+    margin-top: 79px;
+    width: 95%;
+    border: 3px solid #545454;
+    align-items: center;
+    height: 70px;
+}
+
+.header h1 {
+    font-size: 28px;
+    color: #000000;
+    font-weight: 900;
+    font-family: "Century Gothic";
+    margin: 0;
+}
+
+.header p {
+    font-size: 14px;
+    color: rgb(43, 43, 43);
+    font-weight: 900;
+    font-family: "Century Gothic";
+    margin-top: 17px;
+}
+
+.shop-now {
+    display: inline-block;
+    padding: 5px 19px;
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+
+    font-size: 18px;
+    font-family: 'Playfair Display', serif;
+}
+
+
+/* .cate-btnsdiv    {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+align-items: center;
+margin-top: 6%;
+} */
+
+.cate-btnsdiv button {
+
+    border: 1px solid black;
+    padding: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    transition: .2s ease-in-out;
+}
+.cate-btnsdiv button:hover {
+    color: white;
+    background-color:#cea046;
+}
+
+/* Deals Container */
+.deals-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.deal {
+    position: relative;
+    background-color: #fff;
+    BORDER: 21px solid white;
+    overflow: hidden;
+    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.deal:hover {
+    transform: translateY(-10px);
+}
+
+.del-img {
+    width: 100%;
+    height: 520px;
+    object-fit: cover;
+    transition: 0.3s ease;
+}
+
+.del-img:hover {
+    filter: brightness(0.8);
+}
+
+.overlay {
+    position: absolute;
+    height: 100%;
+     filter: drop-shadow(1px 1px 6px black);
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    right: 0;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.2);
+    color: white;
+    text-align: center;
+    transition: 0.3s ease;
+    transition-behavior: normal;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transition-property: all;
+}
+
+.overlay p {
+    font-size: 16px;
+    margin: -2px 0;
+    font-weight: 700;
+    font-family: "FS Siena", sans-serif;
+}
+
+.overlay h2 {
+    margin: 12px 0;
+    font-size: 42px;
+    font-weight: 900;
+    font-family: "Century Gothic";
+}
+
+.shop-this {
+    display: inline-block;
+    padding: 11px 30px;
+    margin-top: 6px;
+    border: 2px solid white;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    background: transparent;
+    transition: all 0.3s ease;
+    font-weight: 900;
+    transform: skew(-10deg);
+}
+
+
+.shop-this:hover {
+    background: white;
+    color: black;
+}
+
+/* Product Section */
+.product-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.header-container {
+    text-align: center;
+    padding: 25px 0;
+    background-color: #cea046;
+    color: #fff;
+}
+
+.header-container h1 {
+    font-size: 35px;
+    margin: 0;
+    font-family: "FS Siena", sans-serif;
+}
+
+.category-heading {
+    text-align: center;
+    padding: 20px 0;
+    color: #333;
+}
+
+.category-heading h1 {
+    font-size: 32px;
+    margin: 0;
+    font-weight: bold;
+}
+
+/* Cart (Deals) Section */
+.main-cart-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+    /* padding: 30px; */
+}
+
+
+.cart-div {
+    background-color: #fff;
+    cursor: pointer;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 328px;
+    height: auto;
+    text-align: center;
+}
+
+.cart-div:hover {
+  box-shadow: 0 10px 20px rgba(240, 240, 240, 0.2);
+}
+.cart-div > a{
+    text-decoration: none;
+
+}
+
+/* Fade animation for image */
+.cart-img-div {
+    position: relative;
+    width: 100%;
+    height: 445px;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    overflow: hidden;
+}
+
+.cart-img-div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 0.5s ease-in; /* Smoother, longer fade effect */
+}
+
+.cart-img-div img.secondary {
+    opacity: 0;
+    z-index: 1;
+}
+
+.cart-img-div img.primary {
+    opacity: 1;
+    z-index: 2;
+}
+
+
+.quick-span > button {
+    height: 45px;
+    display: none;
+    text-align: center;
+    width: 90%;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #cea046;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    font-weight: 900;
+    font-family: "Century Gothic";
+    z-index: 3; /* Make sure the button appears above images */
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease-in-out; /* Smooth fade-in */
+}
+
+.cart-img-div:hover .quick-span > button {
+    opacity: 1; /* Make the button visible on hover */
+    display: block;
+}
+
+
+.cart-name h3 {
+    font-size: 20px;
+    margin: 15px 0;
+    color: #000000;
+    font-weight: 900;
+    font-family: "Century Gothic";
+
+}
+
+.cart-price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -12px;
+    font-family: "FS Siena", sans-serif;
+}
+
+
+.cart-price .before-price {
+    color: #000000;
+    text-decoration: line-through;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.cart-price .after-price {
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cart-review {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+}
+
+.cart-review i {
+    color: #ffc107;
+    margin-right: 5px;
+}
+
+.cart-review span {
+    margin-left: 10px;
+    font-size: 16px;
+    color: #666;
+}
+
+.quick-span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+}
+    .carousel-item{
+            height: 510px;
+
+    }
+.carousel-item > image
+{
+    width: 100% !important;
+    object-fit: cover !important;
+    height: 50% !important;
+}
+
+
+/* Responsive Media Queries */
+@media (max-width: 1024px) {
+    .deal {
+        max-width: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-cart-container {
+        flex-direction: column;
+        gap: 60px;
+        align-items: center;
+    }
+
+    .cart-div {
+        width: 90%;
+    }
+
+    .deal {
+        max-width: 100%;
+    }
+    .cate-btnsdiv button {
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        width: 35%;
+        border: 1px solid black;
+        padding: 13px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+        transition: .2s ease-in-out;
+    }
+    .del-img {
+        height: 200px;
+    }
+
+/*DEALS AND PACKS*/
+    .header {
+        gap: 20px;
+        padding: 5px;
+        justify-content: center;
+        display: flex;
+        margin-top: 79px;
+        width: 95%;
+        margin-bottom: 45px;
+        border: 3px solid #545454;
+        align-items: center;
+        height: 70px;
+    }
+    .header h1 {
+        font-size: 16px;
+        color: #000000;
+        font-weight: 900;
+        font-family: "Century Gothic";
+        margin: 0;
+    }
+    .shop-now {
+        display: inline-block;
+        padding: 5px 18px;
+        height: 55px;
+        border: 1px solid black;
+        text-decoration: none;
+        color: black;
+        font-size: 16px;
+        font-family: 'Playfair Display', serif;
+    }
+    .deals-container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 30px;
+        padding: 0px;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .overlay h2 {
+        margin: 12px 0;
+        font-size: 37px;
+        font-weight: 900;
+        font-family: "Century Gothic";
+    }
+    .del-img {
+        height: 450px;
+    }
+    .cart-img-div {
+        position: relative;
+        width: 100%;
+        height: 395px;
+        display: flex;
+        align-items: end;
+        justify-content: end;
+        overflow: hidden;
+    }
+    .col-10 {
+        flex: 0 0 auto;
+        width: 100.333333%;
+    }
+    .filter-container button, .filter-container select {
+        font-size: 20px;
+        padding: 25px;
+        margin-top: 10px;
+    }
+    .carousel-item image {
+        height:45%;
+    }
+    .carousel-item{
+            height: 210px;
+
+    }
+}
+.slider {
+    width: 100%;
+    overflow: hidden;
+    /* filter: invert(1); */
+    background-color: #cea046;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.slider-track {
+    display: flex;
+    width: max-content;
+    animation: scroll 25s linear infinite;
+}
+
+.slides {
+    padding: 10px 20px;
+    font-size: 1em;
+    white-space: nowrap;
+    color: white;
+ font-weight: 500;
+    word-spacing: 2px;
+    font-family: "FS Siena", sans-serif;
+    background-color: #cea046;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.category-container > h2 , .more-deals-packs > h2{
+    text-align: center;
+    font-size: 65px;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.col-10{
+    width: 100%;
+}
+.heading-home {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    color: #cea046;
+}
+
+.heading-home > h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing:2px;
+    word-spacing: 2px;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.heading-home > hr {
+    height: 2px;
+    width: 35%;
+    background-color: #cea046;
+    color: #cea046;
+}
+
+
+@media (max-width: 768px) {
+    .heading-home > h2 {
+        font-size: 32px;
+         font-family: "Century Gothic";
+    }
+
+    .heading-home > hr {
+        width: 30%;
+        border-radius: 5px;
+        margin-top: 3px;
+    }
+    .heading-home{
+        margin-top: 15px;
+    margin-bottom: -50px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .heading-home {
+        gap: 10px;
+    }
+    .heading-home{
+        margin-top: 15px;
+    margin-bottom: -50px;
+    }
+
+    .heading-home > h2 {
+        font-size: 24px;
+        letter-spacing: 1px;
+        font-family: 'Bebas Neue', sans-serif;
+
+    }
+
+    .heading-home > hr {
+        width: 30%;
+        border-radius: 5px;
+        margin-top: 3px;
+    }
+
+    .heading-home > h2 {
+        color: #000000;
+        text-transform: uppercase;
+    }
+    .cate-btnsdiv button {
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        width: 35%;
+        border: 1px solid black;
+        padding: 13px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+        transition: .2s ease-in-out;
+    }
+    .filter-container button, .filter-container select {
+        font-size: 20px;
+        padding: 25px;
+        margin-top: 10px;
+    }
+}
+
+/* Style for Filter Icon */
+.filter-icon-container {
+    display: flex;
+    justify-content: start;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
+
+.filter-toggle-btn {
+    background-color: #cea046;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.filter-toggle-btn i {
+    margin-right: 5px;
+}
+
+/* Filter Sidebar */
+.filter-sidebar {
+    position: fixed;
+    right: -300px;
+    top: 0;
+    width: 300px;
+    height: 100%;
+    background-color: white;
+    border: 1px solid #717171;
+    transition: right 0.3s ease-in-out;
+    z-index: 999;
+    padding: 20px;
+}
+
+.filter-sidebar.open {
+    right: 0;
+}
+
+.filter-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.filter-header h3 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.close-filter-btn {
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.filter-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.filter-container label {
+    font-weight: bold;
+}
+
+.filter-container button,
+.filter-container select {
+    margin-top: 5px;
+    padding: 8px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.filter-container button:hover {
+    background-color: #cea046;
+    color: white;
+    cursor: pointer;
+}
+
+/* Responsiveness for tablets and below */
+@media (max-width: 1024px) {
+    .filter-sidebar {
+        width: 400px; /* Wider for tablet view */
+    }
+
+    .filter-toggle-btn {
+        width: auto;
+        padding: 12px;
+        font-size: 18px; /* Slightly larger font */
+    }
+}
+
+/* Responsiveness for mobile */
+@media (max-width: 768px) {
+    .filter-sidebar {
+        width: 100%; /* Full width for mobile view */
+        right: -100%; /* Start hidden off-screen */
+    }
+
+    .filter-sidebar.open {
+        right: 0; /* Slide in from the right */
+    }
+
+    .filter-toggle-btn {
+        width: 100%;
+        padding: 12px;
+        font-size: 18px;
+    }
+
+    .filter-header h3 {
+        font-size: 22px;
+         font-family: "Century Gothic";
+    }
+
+    .filter-container button,
+    .filter-container select {
+        font-size: 16px;
+         font-family: "Century Gothic";
+        padding: 10px;
+    }
+}
+
+/* Responsiveness for small mobile (e.g., iPhone SE) */
+@media (max-width: 480px) {
+    .filter-sidebar {
+        padding: 10px; /* Less padding for small screens */
+    }
+
+    .filter-header h3 {
+        font-size: 20px;
+         font-family: "Century Gothic";
+    }
+
+    .close-filter-btn {
+        font-size: 20px;
+         font-family: "Century Gothic";
+    }
+
+    .filter-container button,
+    .filter-container select {
+        font-size: 14px;
+         font-family: "Century Gothic";
+        padding: 8px;
+    }
+
+    .filter-toggle-btn {
+        font-size: 16px;
+         font-family: "Century Gothic";
+        padding: 10px;
+    }
+}

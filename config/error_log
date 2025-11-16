@@ -1,0 +1,16 @@
+[03-Nov-2025 23:50:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/thehelpe/rangilalace.com/config/app.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/thehelpe/rangilalace.com/config/app.php on line 18
+[03-Nov-2025 23:51:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/thehelpe/rangilalace.com/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/thehelpe/rangilalace.com/config/database.php on line 18
+[03-Nov-2025 23:51:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/thehelpe/rangilalace.com/config/app.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/thehelpe/rangilalace.com/config/app.php on line 18
+[03-Nov-2025 23:52:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/thehelpe/rangilalace.com/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/thehelpe/rangilalace.com/config/database.php on line 18

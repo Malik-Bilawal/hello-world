@@ -1,0 +1,136 @@
+
+/* General styles */
+body {
+    font-family: "Century Gothic", sans-serif;
+    background-color: white;
+    color: #333;
+    /* filter: invert(1);  */
+    margin: 0;
+    padding: 0;
+  }
+  
+  tr{
+    background: #ffffff;
+}
+table th {
+    background-color: #f4f4f4;
+    cursor: pointer;
+    color: #027cff;
+}
+.table-responsive {
+    padding: 50px;
+}
+
+.btn-success{
+    background-color: #027cff;
+    border: none;
+}
+
+.btn-danger{
+    background-color: #000000;
+    border: none;
+}
+
+.order-list-headings {
+    text-align: center;
+    font-size: 60px;
+    color: #007aff;
+    font-weight: 900;
+    margin: 50px 0;
+}
+
+.new-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+     flex-direction: column;
+     margin-top: 30px;
+    margin-bottom: 30px;
+}
+.new-div > button {
+    color: #ffffff;
+    background-color: black;
+     text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    border-radius: 10px;
+    padding:15px ;
+    font-family: "Century Gothic", sans-serif;
+    border: none;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table th {
+    background-color: #f4f4f4;
+    cursor: pointer;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.btn {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+    display: inline-block;
+    text-align: center;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    filter: invert(1);
+}
+
+
+@media (max-width: 575.98px) {
+    .order-list-headings {
+        font-size: 24px;
+    }
+    table th, table td {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .order-list-headings {
+        font-size: 34px;
+    }
+    table th, table td {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .order-list-headings {
+        font-size: 59px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .order-list-headings {
+        font-size: 47px;
+    }
+}
+img, svg {
+    vertical-align: middle;
+    filter: invert(1);
+}

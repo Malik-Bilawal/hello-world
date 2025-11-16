@@ -1,0 +1,155 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cate-btnsdiv    {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+align-items: center;
+margin-top: 6%;
+}
+.cate-btnsdiv button {
+    width: 15%;
+    background-color: white;
+    color: black;
+    transition: .2s ease-in-out;
+    height: 50px;
+}
+.cate-btnsdiv button:hover {
+    color: white;
+    background-color:#cea046;
+}
+
+/* products css */
+
+.product-section
+{
+    display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+flex-direction: column;
+padding-top: 20px;
+
+}
+
+/* products css */
+.header-container {
+    text-align: center;
+    padding: 30px 0;
+    background-color: #cea046;
+    color: #fff;
+}
+
+.header-container h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.category-heading {
+    text-align: center;
+    padding: 20px 0;
+    color: #333;
+}
+
+.category-heading h1 {
+    font-size: 32px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.main-cart-container {
+    display: flex;
+   justify-content: center;
+    gap: 80px;
+    padding: 30px;
+}
+
+.cart-div {
+
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgb(62 62 62 / 10%);
+    cursor: pointer;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 328px;
+    height: auto;
+    text-align: center;
+}
+
+.cart-div:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+}
+
+.cart-img-div img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    height: 345px;
+    border-bottom: 1px solid #eee;
+}
+
+.cart-name h3 {
+    font-size: 22px;
+    margin: 15px 0;
+    color: #333;
+}
+
+.cart-price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.cart-price .before-price {
+    color: #888;
+    text-decoration: line-through;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.cart-price .after-price {
+    color: #e63946;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cart-review {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+}
+
+.cart-review i {
+    color: #ffc107; /* Star color */
+    margin-right: 5px;
+}
+
+.cart-review span {
+    margin-left: 10px;
+    font-size: 16px;
+    color: #666;
+}
+
+@media (max-width: 768px) {
+    .main-cart-container {
+        flex-direction: column;
+        align-items: center;
+         font-family: "Century Gothic";
+    }
+
+    .cart-div {
+        width:80%;
+ font-family: "Century Gothic";
+    }
+}
+
+
