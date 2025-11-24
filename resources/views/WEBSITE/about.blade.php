@@ -2,21 +2,7 @@
 
 @section('web-components')
     <style>
-        :root {
-            --primary: #6366f1;
-            --primary-dark: #4f46e5;
-            --secondary: #10b981;
-            --accent: #8b5cf6;
-            --dark: #0f172a;
-            --light: #f8fafc;
-            --gray: #64748b;
-            --gray-light: #e2e8f0;
-            --white: #ffffff;
-            --shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-            --shadow-lg: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
-            --glow: 0 0 20px rgba(99, 102, 241, 0.4);
-            --transition: all 0.3s ease-in-out;
-        }
+
 
         * {
             margin: 0;
@@ -32,7 +18,7 @@
         body {
             font-family: 'Inter', 'Poppins', sans-serif;
             line-height: 1.7;
-            color: var(--dark);
+            color: var(--light);
             background: linear-gradient(135deg, var(--light) 0%, #f0f4f8 100%);
             overflow-x: hidden;
             font-weight: 400;
@@ -683,10 +669,10 @@
             <div class="intro-grid">
                 <div class="intro-text">
                     <h2 class="section-title">Our Vision</h2>
-                    <p>Welcome to <strong>Muslimeen</strong>, where tradition meets innovation in Islamic fashion. Founded with a passion for excellence, we're redefining modest wear for the modern era.</p>
-                    <p>Our collections blend timeless Islamic values with contemporary design aesthetics, creating pieces that empower you to express your faith with confidence and style.</p>
-                    <p>Every garment tells a story of craftsmanship, quality, and devotion to the principles of modesty and elegance.</p>
-                    <a href="#collections" class="btn" style="margin-top: 2rem;">Explore Collections</a>
+                    <p style="color: black;">Welcome to <strong>Muslimeen</strong>, where tradition meets innovation in Islamic fashion. Founded with a passion for excellence, we're redefining modest wear for the modern era.</p>
+                    <p style="color: black;">Our collections blend timeless Islamic values with contemporary design aesthetics, creating pieces that empower you to express your faith with confidence and style.</p>
+                    <p style="color: black;">Every garment tells a story of craftsmanship, quality, and devotion to the principles of modesty and elegance.</p>
+                    <a style="color: black; margin-top: 10px;" href="#collections" class="btn" style="margin-top: 2rem;">Explore Collections</a>
                 </div>
                 <div class="intro-image">
                     <img src="https://images.unsplash.com/photo-1585435557343-3b092031d5ad?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" alt="Modern Islamic Fashion">
@@ -705,21 +691,21 @@
                         <i class="fas fa-star"></i>
                     </div>
                     <h3>Excellence</h3>
-                    <p>We pursue perfection in every stitch, ensuring unparalleled quality and attention to detail in all our creations.</p>
+                    <p style="color: black;">Pushing boundaries while honoring tradition, we redefine what modest fashion can be in the modern world.</p>
                 </div>
                 <div class="value-card">
                     <div class="value-icon">
                         <i class="fas fa-hands-helping"></i>
                     </div>
                     <h3>Community</h3>
-                    <p>Building bridges through fashion, we create spaces where faith and fashion harmoniously coexist.</p>
+                    <p style="color: black;">Pushing boundaries while honoring tradition, we redefine what modest fashion can be in the modern world.</p>
                 </div>
                 <div class="value-card">
                     <div class="value-icon">
                         <i class="fas fa-lightbulb"></i>
                     </div>
                     <h3>Innovation</h3>
-                    <p>Pushing boundaries while honoring tradition, we redefine what modest fashion can be in the modern world.</p>
+                    <p style="color: black;">Pushing boundaries while honoring tradition, we redefine what modest fashion can be in the modern world.</p>
                 </div>
             </div>
         </div>
@@ -749,24 +735,6 @@
         </div>
     </section>
 
-    <!-- Founder Section -->
-    <section class="founder">
-        <div class="container">
-            <div class="founder-grid">
-                <div class="founder-image">
-                    <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1974&q=80" alt="Founder Shafi">
-                </div>
-                <div class="founder-text">
-                    <h2 class="section-title">Our Founder's Vision</h2>
-                    <p><strong>Shafi</strong> envisioned Muslimeen as more than a fashion brand—it's a movement that celebrates Islamic heritage through contemporary design.</p>
-                    <blockquote class="founder-quote">
-                        "We're not just creating clothing; we're crafting confidence. Every piece is designed to make you feel proud of your identity while embracing modern elegance."
-                    </blockquote>
-                    <p>Under Shafi's leadership, Muslimeen continues to innovate while staying true to the core values of quality, authenticity, and community empowerment.</p>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- CTA Section -->
     <section id="collections" class="cta">
@@ -780,7 +748,6 @@
 
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-            // Loading animation
             setTimeout(() => {
                 document.getElementById('loadingBar').style.width = '100%';
                 setTimeout(() => {
@@ -788,7 +755,6 @@
                 }, 500);
             }, 100);
 
-            // Scroll progress
             window.addEventListener('scroll', () => {
                 const winHeight = window.innerHeight;
                 const docHeight = document.documentElement.scrollHeight;

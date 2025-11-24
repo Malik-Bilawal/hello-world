@@ -5,29 +5,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-         :root {
-          --primary: #7c3aed;
-          --primary-light: #8b5cf6;
-          --primary-dark: #6d28d9;
-          --secondary: #10b981;
-          --accent: #f59e0b;
-          --dark: #0f172a;
-          --dark-light: #1e293b;
-          --light: #f8fafc;
-          --gray: #64748b;
-          --gray-light: #e2e8f0;
-          --white: #ffffff;
-          --gradient: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
-          --gradient-dark: linear-gradient(135deg, var(--dark) 0%, var(--dark-light) 100%);
-          --shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-          --shadow-lg: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
-          --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-          --glow: 0 0 20px rgba(124, 58, 237, 0.4);
-          --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-          --transition-slow: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
-          --border-radius: 12px;
-          --border-radius-lg: 20px;
-        }
+
         body {
             font-family: 'Playfair Display', serif;
             color: var(--dark-color);

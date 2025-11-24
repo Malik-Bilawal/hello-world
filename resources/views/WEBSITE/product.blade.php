@@ -19,7 +19,7 @@
         }
 
         .header-container {
-            background: var(--gradient);
+            background: var(--primary);
             color: white;
             padding: 120px 20px 80px;
             text-align: center;
